@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.hero{
+    height: 80vh   ;
+    background: url("../img/Rectangle.png") no-repeat center/cover fixed ;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header{
+    position: absolute;
+    width: 100%;
+
+}
+header .container{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.burger{
+    width: 50px;
+    height: 50px;
+    background: #F7654A;
+    position: relative;
+
+}
+.line{
+    width: 60%;
+    height: 4px;
+    background: #F7F7F7;
+    position: absolute;
+    bottom: 25px;
+    right: 20%;
+}
+.line:after{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #F7F7F7;
+    position: absolute;
+    bottom: 12px;
+}
+.line:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #F7F7F7;
+    position: absolute;
+    top: 12px;
+}
+.middle-btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 250px;
+    height:60px;
+    background: #F7F7F7;
+    padding:20px ;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    transition: .4s;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: orange;
+    color:white;
+    border: 2px solid yellow;
+
+}
+.middle-s{
+    position: absolute;
+    left: 12px;
+    margin-left: 15px;
+
+
+}
+.hero-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 150px;
+}
+.hero-subtitle{
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 38px;
+}
+.numbers .container{
+    margin-top: -140px;
+    background: #F7F7F7;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+.number-item{
+
+    text-align: center;
+    padding: 57px 30px;
+}
+.number-main{
+    font-size: 74px;
+    color: red;
+}
+.number-desc{
+    font-size: 18px;
+    color: #999999;
+}
+.number-sub{
+font-size: 36px;
+}
+.about{
+
+    background: antiquewhite;
+}
+.section-title{
+    margin-top: 100px;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 60px;
+}
+.col-4{
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.project-item{
+    padding:10px;
+}
+.project-img{
+    margin-bottom: 60px;
+    width: 100%;
+}
+.project-title{
+    font-size: 24px;
+
+    padding-bottom: 20px;
+    position: relative;
+}
+.project-title:after{
+    content: '';
+    width: 55px;
+    position: absolute;
+    background: orange;
+    bottom:45px;
+    left:0;
+    margin: 45px 0 15px;
+
+}
+.project-desc{
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 150px;
+
+}
+.middle{
+    padding: 30px 0 45px;
+    background: orange;
+}
+.middle-item{
+    display: flex;
+    justify-content: space-between;
+}
+.middle-title{
+    margin: 30px 0 15px;
+    font-size: 48px;
+    color: white;
+}
+.middle-subtitle{
+    font-size: 24px;
+    color: white;
+}
+.middle-svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-4{
+    width: 33.3333%;
+    padding: 0 15px;
+
+}
+.work{
+padding: 100px 0;
+}
+.work-item{
+    background:silver ;
+    padding:80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.work-item svg{
+    margin-bottom: 30px;
+
+}
+.work-title{
+    margin-bottom: 65px;
+    text-align: center;
+    font-size: 36px;
+}
+.city{
+    background: url("../img/build.png") no-repeat center/cover fixed ;
+height: 80vh;
+}
+.answers{
+    padding: 150px 0 60px;
+}
+.answer-item{
+    display: flex;
+    color: orange;
+}
+.answer-title{
+    text-align: center;
+
+    font-size: 36px;
+
+}
+.answer-subtitle{
+    font-size: 24px;
+    margin-bottom: 40px;
+
+}
+.answer-desc{
+    font-size: 16px;
+    color: #999999;
+    margin-bottom:30px;
+    padding-right:400px;
+}
+.answer-item svg{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.partners{
+    padding: 100px 0 60px;
+    background: #404149;
+}
+.partner-item{
+    display: flex;
+    justify-content: space-between;
+}
+.partner-title{
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+.reviews{
+padding: 150px 0 150px;
+}
+.review-item{
+    background: #F7F7F7;
+    padding: 35px;
+    margin-bottom: 30px;
+
+}
+.review-title{
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.break{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 142px;
+    text-transform: uppercase;
+
+    color: #F7654A;
+}
+.review-desc{
+    font-size: 14px;
+    color: #999999;
+    margin-top: -50px;
+}
+.review-sub{
+    font-size: 21px;
+}
+.red{
+    color:red;
+}
+.contacts{
+    padding: 100px 0 150px;
+}
+.contact-title{
+    margin-bottom:60px;
+    font-size: 36px;
+    text-align: center;
+}
+.contact-item{
+    text-align: center;
+
+    padding: 50px 20px;
+}
+.contact-sub{
+    margin:25px 0;
+    font-size: 24px;
+    color: #999999;
+}
+.contact-desc{
+    font-size: 24px;
+}
+.pink{
+    color: orange;
+}
+footer{
+    background:  url("../img/RoLO.gif" ) no-repeat center/cover ;
+    background-blend-mode: darken;
+   padding: 50px 0;
+
+}
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    font-size: 16px;
+    color: #F7F7F7;
+}
+
+
+
+
+
+
+
